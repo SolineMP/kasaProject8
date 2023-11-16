@@ -1,7 +1,10 @@
+import logo from '../../assets/logo.png'
+
 function Footer() {
     return (
         <div>
-            <h2>C'est fini</h2>
+            <img src={logo} alt="logo du site Ksa" />
+            <p>© 2020 Kasa. All rights reserved</p>
         </div>
     )
 }

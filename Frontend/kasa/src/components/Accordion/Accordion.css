@@ -1,0 +1,7 @@
+.hideContent {
+    display : none;
+}
+
+.isActive {
+    display: block;
+}

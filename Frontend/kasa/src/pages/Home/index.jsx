@@ -1,11 +1,12 @@
 import firstBanner from '../../assets/firstBanner.png'
 import Card from '../../components/Card'
+import Banner from '../../components/Banner'
 
 function Home() {
   return (
     <div>
       <h1> Page d'accueil</h1>
-      <img src={firstBanner} alt="bannière du site Kasa" />
+      <Banner bannerName={firstBanner} />
       <Card />
     </div>
   )

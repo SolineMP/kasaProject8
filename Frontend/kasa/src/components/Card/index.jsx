@@ -16,7 +16,6 @@ function Card() {
 
   return (
     <div>
-        {console.log("TEST")}
         {data.map((property) =>
             <React.Fragment key={property.id}>
                 <div>

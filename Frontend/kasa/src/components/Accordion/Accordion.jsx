@@ -13,13 +13,13 @@ function Accordion({ title, txt }) {
     }
 
     return (
-        <div> 
-                <div>
+        <div className="test"> 
+                <div className="accordion__title">
                     <h3>{title}</h3>
                     <FontAwesomeIcon icon={faChevronUp} onClick={handleShow} className={`${isActive ? 'isActive' : 'hideContent'}`} />
                     <FontAwesomeIcon icon={faChevronDown} onClick={handleShow} className={`${isActive ? 'hideContent' : 'isActive'}`} />
                 </div>
-                <div>  
+                <div className="accordion__text">  
                     <p className={`${isActive ? 'isActive' : 'hideContent'}`}>{txt}</p>
                 </div>
         </div>

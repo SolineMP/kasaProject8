@@ -1,0 +1,17 @@
+.footerBar {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.footerBar__Img {
+    margin-top: 50px;
+}
+
+.footerBar__Text {
+    padding-bottom: 50px;
+    margin-bottom: 0;
+    margin-top: 25px;
+}

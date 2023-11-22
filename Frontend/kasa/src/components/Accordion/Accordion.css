@@ -5,3 +5,27 @@
 .isActive {
     display: block;
 }
+
+.accordion {
+    margin: 100px;
+}
+
+.test {
+    margin: 20px 0;
+}
+
+.accordion__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-bg-color);
+    color: white;
+    border-radius: 10px;
+    padding : 0 25px;
+}
+
+.accordion__text {
+    background-color: #F6F6F6;
+    padding: 30px;
+    border-radius: 10px;
+}

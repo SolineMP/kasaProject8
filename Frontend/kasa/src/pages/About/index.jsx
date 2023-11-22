@@ -12,8 +12,12 @@ function About() {
 
     return (
         <div>
-            <Banner bannerName={secondBanner} />
-            {factsAbout.map((factAbout) => <Accordion key={factAbout.id} title={factAbout.title} txt={factAbout.txt} /> )}
+            <div>
+                <Banner bannerName={secondBanner} />
+            </div>
+            <div className='accordion'>
+                {factsAbout.map((factAbout) => <Accordion key={factAbout.id} title={factAbout.title} txt={factAbout.txt} /> )}
+            </div>
         </div>
     )
     

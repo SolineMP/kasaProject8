@@ -13,14 +13,14 @@ function Accordion({ title, txt }) {
     }
 
     return (
-        <div className="test"> 
+        <div className="accordion__total"> 
                 <div className="accordion__title">
                     <h3>{title}</h3>
-                    <FontAwesomeIcon icon={faChevronUp} onClick={handleShow} className={`${isActive ? 'isActive' : 'hideContent'}`} />
-                    <FontAwesomeIcon icon={faChevronDown} onClick={handleShow} className={`${isActive ? 'hideContent' : 'isActive'}`} />
+                    <FontAwesomeIcon icon={faChevronUp} onClick={handleShow} className={`${isActive ? 'isActive' : 'hideContent'} accordion__icon`} />
+                    <FontAwesomeIcon icon={faChevronDown} onClick={handleShow} className={`${isActive ? 'hideContent' : 'isActive'} accordion__icon`} />
                 </div>
-                <div className="accordion__text">  
-                    <p className={`${isActive ? 'isActive' : 'hideContent'}`}>{txt}</p>
+                <div className="test">  
+                    <p className={`${isActive ? 'isActive' : 'hideContent'} accordion__text`}>{txt}</p>
                 </div>
         </div>
     )

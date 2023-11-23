@@ -6,6 +6,7 @@ import Host from "../../components/Host";
 import Rate from "../../components/Rate";
 import Accordion from "../../components/Accordion/Accordion.jsx"
 import Carroussel from "../../components/Carroussel";
+import './appartement.css';
 
 
 function Appartement() {
@@ -29,27 +30,39 @@ function Appartement() {
     const description = data.description
     const equipments = data.equipments 
     const equipmentsList = equipments?.map((equipment) => (
-        <li key={equipment}>{equipment}</li>
+        <li className="accordion__property_equip" key={equipment}>{equipment}</li>
       ));
     
 
       return (
-            <div>
+            <div className="mainContent">
                     <div>
-                        <div>
+                        <section>
                             <Carroussel images={data.pictures} cover={data.cover} />
-                        </div>
-                        <div>
-                            <h1>{data.title}</h1>
-                            <h3>{data.location}</h3>
-                        </div>
-                        <div>
-                            <ButtonTag valueTag={tagArray} />
-                        </div>
-                        <Host valueHost={hostObj} />
-                        <Rate valueRate={rating}/>
-                        <Accordion title="Description" txt={description} /> 
-                        <Accordion title="Équipements" txt={equipmentsList} />
+                        </section>
+                        <section className="iddentification">
+                            <article className="iddentification__main">
+                                <div className="iddentification__main--title">
+                                    <h1 className="iddentification__main--titleBig">{data.title}</h1>
+                                    <h3 className="iddentification__main--titleSmall">{data.location}</h3>
+                                </div>
+                                <div>
+                                    <ButtonTag valueTag={tagArray} />
+                                </div>
+                            </article>
+                            <article className="iddentification__aside">
+                                <Host valueHost={hostObj} />
+                                <Rate valueRate={rating}/>
+                            </article>
+                        </section>
+                        <section className="description">
+                            <div className="accordion__property"> 
+                            <Accordion title="Description" txt={description} /> 
+                            </div>
+                            <div className="accordion__property">
+                            <Accordion title="Équipements" txt={equipmentsList} />
+                            </div>
+                        </section>
                     </div>
             </div>
         )    

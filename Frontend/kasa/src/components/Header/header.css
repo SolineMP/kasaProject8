@@ -9,4 +9,24 @@
     color: var(--main-bg-color);
     text-decoration: none;
     margin-left: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+    .navBar {
+        margin: 12px;
+    }
+    
+    .navBar__logo {
+        width: 50%;
+        height: 30%;
+    }
+
+    nav {
+        width: 50%;
+        display: flex;
+        justify-content: right;
+        flex-wrap: nowrap;
+    };
 }

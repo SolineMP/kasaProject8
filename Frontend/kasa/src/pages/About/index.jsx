@@ -11,11 +11,9 @@ function About() {
     ]
 
     return (
-        <div>
-            <div>
-                <Banner bannerName={secondBanner} />
-            </div>
-            <div className='accordion'>
+        <div className='mainContent'>
+            <Banner bannerName={secondBanner} />
+            <div className='accordion accordion__about'>
                 {factsAbout.map((factAbout) => <Accordion key={factAbout.id} title={factAbout.title} txt={factAbout.txt} /> )}
             </div>
         </div>

@@ -5,7 +5,7 @@ import { faStar } from '@fortawesome/free-solid-svg-icons'
 function Rate(props) {
     const rating = props.valueRate
     return (
-        <div>
+        <div className='iddentification__aside--rate'>
             {
             [...Array(5)].map((icon, i) => {
                 i ++

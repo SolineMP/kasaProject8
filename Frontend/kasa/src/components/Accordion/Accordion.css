@@ -6,11 +6,12 @@
     display: block;
 }
 
+
 .accordion {
     margin: 100px;
 }
 
-.test {
+.accordion__total {
     margin: 20px 0;
 }
 
@@ -26,6 +27,50 @@
 
 .accordion__text {
     background-color: #F6F6F6;
-    padding: 30px;
     border-radius: 10px;
+    padding: 30px;
+    margin: 0;
+    color: var(--main-bg-color);
+    font-size: 18px ;
+    font-weight: 400;
+    height: 120px;
+}
+
+h3 {
+    font-weight: 300;
+}
+
+.accordion__icon {
+    font-size: x-large;
+}
+
+.accordion__about {
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 18%;
+}
+
+.accordion__property {
+    width: 47%;
+    text-align: center;
+}
+
+.accordion__property_equip {
+    text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+    .accordion {
+        margin: 0 12px;
+    }
+    
+    .accordion__about {
+        width: 95%;
+    }
+
+    .accordion__property {
+        width: 100%;
+        text-align: left;
+    }
+
 }

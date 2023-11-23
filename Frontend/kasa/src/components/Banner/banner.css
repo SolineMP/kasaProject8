@@ -1,6 +1,9 @@
 .banner {
     margin: 50px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner__Img{
@@ -13,11 +16,19 @@
 .banner__text {
     margin-left: 15px;
     position: absolute;
-    top: 30%;
-    left: 25%;
-    transform: translateY(-50%);
     font-size: 40px;
     color: #fff;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     text-wrap: balance;
+}
+
+@media screen and (max-width: 768px) {
+    .banner {
+        width: 95%;
+        margin-left: 12px ;
+    }
+
+    .banner__Img {
+        width: 100%;
+    }
 }

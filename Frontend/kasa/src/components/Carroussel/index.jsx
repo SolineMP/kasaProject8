@@ -25,12 +25,13 @@ function Carroussel({ images, cover }) {
     }
      
     return (
-        <div>
-            <img src={images !== undefined ? images[current] : cover } alt="appartement"/>
+        <div className="carroussel">
+            <img src={images !== undefined ? images[current] : cover } alt="appartement" className="carroussel__img"/>
             { images?.length > 1 ?  
                 <div>
-                    <FontAwesomeIcon onClick={handleLeftClick} icon={faChevronLeft}></FontAwesomeIcon>
-                    <FontAwesomeIcon onClick={handleRightClick} icon={faChevronRight}></FontAwesomeIcon>
+                    <FontAwesomeIcon onClick={handleLeftClick} icon={faChevronLeft} className="carroussel__icon carroussel__icon--left"></FontAwesomeIcon>
+                    <FontAwesomeIcon onClick={handleRightClick} icon={faChevronRight} className="carroussel__icon carroussel__icon--right"></FontAwesomeIcon>
+                    <p className="carroussel__text">{current + 1}/{images.length}</p>
                 </div>
             : "" }
         </div>

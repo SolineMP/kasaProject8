@@ -4,7 +4,7 @@ import Banner from '../../components/Banner'
 
 function Home() {
   return (
-    <div>
+    <div className='mainContent'>
       <Banner bannerName={firstBanner} text="Chez vous, partout et ailleurs" />
       <Card />
     </div>

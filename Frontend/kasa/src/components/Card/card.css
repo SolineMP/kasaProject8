@@ -32,3 +32,15 @@
     font-weight: 500;
     text-wrap: balance;
 }
+
+@media screen and (max-width: 768px) {
+    .proprety__grid {
+        grid-template-columns: 100%;
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        width: 95%;
+        margin-left: 12px;
+    }
+}
+    

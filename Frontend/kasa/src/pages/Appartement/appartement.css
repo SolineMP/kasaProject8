@@ -143,6 +143,11 @@ section {
         width: 30%;
     }
 
+    .iddentification__button {
+        padding: 2% 4%; 
+        margin-right: 5%;
+    }
+
     .description {
         flex-direction: column;
         width: 95%;

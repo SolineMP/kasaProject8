@@ -21,7 +21,7 @@ nav {
 @media screen and (max-width: 768px) {
     .navBar {
         margin: 12px;
-        width : 100%
+        width : 95%
     }
     
     .navBar__logo {
@@ -30,11 +30,11 @@ nav {
     }
 
     nav {
-        width: 70%;
+        width: 65%;
         display: flex;
         margin: 0;
         text-align: center;
-        justify-content: center;
+        justify-content: right;
     };
 
     .navBar__link {

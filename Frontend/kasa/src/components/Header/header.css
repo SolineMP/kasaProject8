@@ -5,10 +5,15 @@
     margin: 50px;
 }
 
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
 .navBar__link {
     color: var(--main-bg-color);
     text-decoration: none;
-    margin-left: 30px;
     font-size: 18px;
     font-weight: 500;
 }
@@ -16,17 +21,25 @@
 @media screen and (max-width: 768px) {
     .navBar {
         margin: 12px;
+        width : 100%
     }
     
     .navBar__logo {
-        width: 50%;
+        width: 30%;
         height: 30%;
     }
 
     nav {
-        width: 50%;
+        width: 70%;
         display: flex;
-        justify-content: right;
-        flex-wrap: nowrap;
+        margin: 0;
+        text-align: center;
+        justify-content: center;
     };
+
+    .navBar__link {
+        margin: 0;
+        width: 50%;
+        text-wrap: nowrap;
+    }
 }

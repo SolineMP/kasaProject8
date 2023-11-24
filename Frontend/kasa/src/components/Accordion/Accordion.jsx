@@ -19,7 +19,7 @@ function Accordion({ title, txt }) {
                     <FontAwesomeIcon icon={faChevronUp} onClick={handleShow} className={`${isActive ? 'isActive' : 'hideContent'} accordion__icon`} />
                     <FontAwesomeIcon icon={faChevronDown} onClick={handleShow} className={`${isActive ? 'hideContent' : 'isActive'} accordion__icon`} />
                 </div>
-                <div className="test">  
+                <div className="accordion__text--animation">  
                     <p className={`${isActive ? 'isActive' : 'hideContent'} accordion__text`}>{txt}</p>
                 </div>
         </div>

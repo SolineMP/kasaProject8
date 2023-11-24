@@ -7,7 +7,6 @@ import Rate from "../../components/Rate";
 import Accordion from "../../components/Accordion/Accordion.jsx"
 import Carroussel from "../../components/Carroussel";
 import './appartement.css';
-import Error from "../../components/Error"
 
 
 function Appartement() {

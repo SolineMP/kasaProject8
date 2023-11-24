@@ -23,7 +23,7 @@ Installation de :
 ## Installation
  - Cloner le code
  - Allez dans le dossier ./Backend puis effectuez la commande **docker-compose up** depuis votre terminal. L'API sera à l'adresse "http://localhost:8080/api/properties" 
- - Allez dans le dossier ./Frontend/kasa puis effectuez la commande **yarn start** depuis votre terminal. Le site sera à l'adresse "http://localhost:3000"
+ - Allez dans le dossier ./Frontend puis effectuez la commande **yarn start** depuis votre terminal. Le site sera à l'adresse "http://localhost:3000"
  - Naviguer 
  - Pour stopper, retournez dans le dossier ./backend et effectuez la commande **docker-compose down**
 

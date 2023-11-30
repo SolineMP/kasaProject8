@@ -1,3 +1,5 @@
+import './host.css'
+
 function Host(props) {
         return (
             <div key={props.valueHost?.name} className="iddentification__aside--name">

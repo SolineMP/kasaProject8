@@ -1,0 +1,17 @@
+.iddentification__aside--rate {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    font-size: 22px;
+    align-items: flex-end;
+}
+
+
+@media screen and (max-width: 768px) {
+    .iddentification__aside--rate {
+        justify-content: space-between;
+        width: 30%;
+    }
+}

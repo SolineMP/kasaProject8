@@ -1,0 +1,18 @@
+.iddentification__button {
+    color: white;
+    background-color: var(--main-bg-color);
+    border: none;
+    margin-right: 12px;
+    padding: 5px 25px;
+    border-radius: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: 'Montserrat';
+}
+
+@media screen and (max-width: 768px) {
+    .iddentification__button {
+        padding: 2% 4%; 
+        margin-right: 5%;
+    }
+}

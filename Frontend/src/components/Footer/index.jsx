@@ -8,7 +8,7 @@ function Footer() {
     const pathName = location.pathname;
 
     return (
-        <div className='footerBar' style={{position: pathName === '/' ? 'relative' : pathName === '/about' ? 'fixed' : 'fixed' }}>
+        <div className='footerBar' style={{ }}>
             <img src={logo} alt="logo du site Ksa" className='footerBar__Img' />
             <p className='footerBar__Text'>© 2020 Kasa. All rights reserved</p>
         </div>
@@ -16,4 +16,6 @@ function Footer() {
 }
 
 export default Footer 
+
+// position: pathName === '/' ? 'relative' : pathName === '/about' ? 'fixed' : 'fixed'
 

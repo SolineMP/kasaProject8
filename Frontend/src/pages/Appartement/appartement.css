@@ -2,41 +2,6 @@ section {
     display: flex;
 }
 
-.carroussel {
-    position: relative;
-    width: 100%;
-    height: 415px;
-    margin: 0 50px;
-}
-
-.carroussel__img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 25px;
-}
-
-.carroussel__icon {
-    position: absolute;
-    top: 40%;
-    color: white;
-    font-size: 70px;
-}
-
-.carroussel__icon--left {
-    left: 2%;
-}
-
-.carroussel__icon--right {
-    right: 2%;
-}
-
-.carroussel__text {
-    position: absolute;
-    color: white;
-    top: 85%;
-    right: 50%;
-}
 
 .iddentification {
     margin: 30px 50px;
@@ -69,50 +34,6 @@ section {
     align-items: flex-end;
 }
 
-.iddentification__aside--name {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    justify-content: end;
-    margin-bottom: 15px;
-}
-
-.iddentification__aside--nameOf {
-    color: var(--main-bg-color);
-    text-wrap: wrap;
-    width: min-content;
-    margin-right: 10px;
-}
-
-.iddentification__aside--img {
-    border-radius: 50%;
-    width: 20%;
-}
-
-.iddentification__aside--rate {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    font-size: 22px;
-    align-items: flex-end;
-}
-
-
-.iddentification__button {
-    color: white;
-    background-color: var(--main-bg-color);
-    border: none;
-    margin-right: 12px;
-    padding: 5px 25px;
-    border-radius: 10px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    font-family: 'Montserrat';
-}
-
 .description {
     width: 93%;
     display: flex;
@@ -121,14 +42,14 @@ section {
 }
 
 @media screen and (max-width: 768px) {
-    .carroussel {
-        margin: 0 12px;
-    }
-
     .iddentification {
         flex-direction: column;
         width: 95%;
         margin: 0 12px;
+    }
+
+    .iddentification__main--titleBig {
+        margin-top: 20px;
     }
 
     .iddentification__aside {
@@ -136,16 +57,6 @@ section {
         justify-content: space-between;
         width: 100%;
         align-items: center;
-    }
-
-    .iddentification__aside--rate {
-        justify-content: space-between;
-        width: 30%;
-    }
-
-    .iddentification__button {
-        padding: 2% 4%; 
-        margin-right: 5%;
     }
 
     .description {

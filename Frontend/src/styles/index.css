@@ -10,9 +10,21 @@ body {
   line-height: 1;
   font-weight: 500;
   font-size: 1rem;
-  position: relative;
+  min-height: 100%;
+}
+
+.mainContent {
+  margin-bottom: 20px;
+}
+
+html, body, #root {
   height: 100%;
 }
+
+#root {
+  display: flex;
+  flex-direction: column;
+ }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -28,9 +40,4 @@ a {
   text-decoration: none;
 }
 
-@media screen and (max-width : 768px) {
-  body {
-    max-height: auto;
-  }
   
-}

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import "./card.css"
-import Error from "../Error"
 
 
 function Card() {
@@ -28,6 +27,7 @@ function Card() {
         navigate('*') ;
       })
     });
+    // eslint-disable-next-line
   }, []);
   
   const handlePage = (id) => {

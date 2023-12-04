@@ -14,31 +14,27 @@ nav {
 .navBar__link {
     color: var(--main-bg-color);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 95%;
     font-weight: 500;
 }
 
 @media screen and (max-width: 768px) {
     .navBar {
         margin: 12px;
-        width : 95%
+        width : 95%;
     }
     
     .navBar__logo {
-        width: 30%;
+        width: 40%;
     }
 
     nav {
-        width: 65%;
+        width: 60%;
         display: flex;
         margin: 0;
         text-align: center;
         justify-content: right;
+        gap: 10px;
+        text-transform: uppercase;
     };
-
-    .navBar__link {
-        margin: 0;
-        width: 50%;
-        text-wrap: nowrap;
-    }
 }

@@ -42,5 +42,13 @@
         width: 95%;
         margin-left: 12px;
     }
+
+    .proprety__grid--card {
+        height: 255px;
+    }
+
+    .proprety__grid--img {
+        height: 255px;
+    }
 }
     

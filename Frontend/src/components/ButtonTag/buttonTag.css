@@ -13,6 +13,7 @@
 @media screen and (max-width: 768px) {
     .iddentification__button {
         padding: 2% 4%; 
-        margin-right: 5%;
+        margin-right: 3%;
+        margin-top: 1%;
     }
 }

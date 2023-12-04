@@ -25,10 +25,18 @@
 @media screen and (max-width: 768px) {
     .banner {
         width: 95%;
-        margin-left: 12px ;
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-top: 0;
+        margin-bottom: 20px;
     }
 
     .banner__Img {
         width: 100%;
+        height: 111px;
+    }
+
+    .banner__text {
+        font-size: 25px;
     }
 }

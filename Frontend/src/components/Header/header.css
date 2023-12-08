@@ -20,8 +20,8 @@ nav {
 
 @media screen and (max-width: 768px) {
     .navBar {
-        margin: 12px;
-        width : 95%;
+        margin: 18px 23px;
+        width : 90%;
     }
     
     .navBar__logo {
@@ -31,10 +31,8 @@ nav {
     nav {
         width: 60%;
         display: flex;
-        margin: 0;
-        text-align: center;
-        justify-content: right;
-        gap: 10px;
+        justify-content: flex-end;
         text-transform: uppercase;
+        gap: 5%
     };
 }

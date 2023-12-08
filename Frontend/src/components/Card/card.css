@@ -6,8 +6,7 @@
     margin: 50px;
     border-radius: 25px;
     justify-content: center;
-    padding-top: 45px;
-    padding-bottom: 45px;
+    padding: 3% 1%;
 }
 
 .proprety__grid--card {

@@ -39,4 +39,8 @@
     .banner__text {
         font-size: 25px;
     }
+
+    .bannerBar .banner__Img {
+        height: 223px;
+    }
 }

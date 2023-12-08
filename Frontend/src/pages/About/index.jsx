@@ -12,7 +12,9 @@ function About() {
 
     return (
         <div className='mainContent'>
-            <Banner bannerName={secondBanner} />
+            <div className='bannerBar'>
+                <Banner bannerName={secondBanner} />
+            </div>
             <div className='accordion accordion__about'>
                 {factsAbout.map((factAbout) => <Accordion key={factAbout.id} title={factAbout.title} txt={factAbout.txt} /> )}
             </div>
